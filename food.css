@@ -1,0 +1,106 @@
+img {
+    width: 100px;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.twin-title {
+    position: relative;
+
+}
+
+.navbar {
+    background-color: #b8b8f4;
+}
+
+h1 {
+    font-size: 170px;
+    font-weight: bold;
+    color: rgb(247, 238, 238);
+    margin-bottom: 0;
+    line-height: 0.7;
+
+}
+
+h3 {
+    position: absolute;
+    top: 50%;
+    font-weight: 700px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.location {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+
+
+}
+
+.city-img {
+    transition: 0.5s;
+}
+
+.city-img:hover {
+    transform: scale(1.1);
+
+}
+
+.city-name {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.big-title {
+    position: absolute;
+    bottom: 0;
+    font-size: 200px;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 0.7;
+    margin-left: -17px;
+    overflow: hidden;
+    color: #FF007F;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.big-title:hover {
+    opacity: 0.5;
+
+}
+
+.go-link {
+    margin: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    transition: 0.5s;
+    opacity: 0;
+
+}
+
+.go-link:hover {
+    opacity: 1;
+
+}
+
+svg {
+
+    background-color: #FF007F;
+
+}
+
+#subscrib {
+    margin-top: 50px;
+    background-color: #b8b8f4;
+}

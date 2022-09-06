@@ -1,0 +1,98 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+
+.nav-link {
+    color: rgb(240, 235, 235);
+    text-shadow: 1px;
+    text-shadow: 2px 2px 5px rgb(97, 83, 254);
+    border: 2px solid #474757;
+    ;
+
+}
+
+.navbar {
+    background-color: #b8b8f4;
+}
+
+.nav-item {
+    position: relative;
+    padding: 10px;
+
+
+
+}
+
+#carouselExampleControls {
+
+    width: 900px;
+    height: 50px;
+    align-items: center;
+    padding-left: 50px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+
+}
+
+/* .card {
+
+    border-color: #eeb841;
+    margin-top: 250px;
+    align-items: center;
+    /* //margin-left: 100px; */
+
+
+
+
+.card-body {
+    background-color: #b8b8f4;
+    color: black;
+}
+
+h1 {
+    color: whitesmoke;
+    text-shadow: 1px;
+    text-shadow: 2px 2px 5px rgb(65, 71, 237);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.card-img-top {
+    width: 18rem;
+    height: 200px;
+    border: #8686e5;
+}
+
+.btn {
+    padding: 5px 10px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(239, 239, 239);
+    background-color: #0d0d0d;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px rgb(168, 207, 240);
+}
+
+.btn:hover {
+    background-color: #b8b8f4;
+}
+
+#Sylhet {
+    margin-top: 10px;
+}
+
+#cox {
+    margin-top: 10px;
+}
