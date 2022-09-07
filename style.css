@@ -11,11 +11,12 @@ body {
 
 
 .nav-link {
+    font-size: large;
     color: rgb(240, 235, 235);
     text-shadow: 1px;
     text-shadow: 2px 2px 5px rgb(97, 83, 254);
-    border: 2px solid #474757;
-    ;
+
+
 
 }
 
@@ -33,21 +34,15 @@ body {
 
 #carouselExampleControls {
 
-    width: 900px;
-    height: 50px;
+
     align-items: center;
     padding-left: 50px;
-    margin-top: 1px;
+    margin-top: 150px;
     margin-bottom: 5px;
+
 
 }
 
-/* .card {
-
-    border-color: #eeb841;
-    margin-top: 250px;
-    align-items: center;
-    /* //margin-left: 100px; */
 
 
 
@@ -89,10 +84,38 @@ h1 {
     background-color: #b8b8f4;
 }
 
-#Sylhet {
-    margin-top: 10px;
-}
+
 
 #cox {
     margin-top: 10px;
+}
+
+.city-container {
+    margin-top: 50px;
+    margin-left: 150px;
+
+}
+
+.card-img-top {
+    background-position: center;
+    background-size: cover;
+    bottom: 0;
+
+    transition: 0.5s;
+
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+
+}
+
+#slide-section {
+    width: 900px;
+    height: 100px;
+}
+
+hr {
+
+    border: 2px solid #0c0c0c;
 }

@@ -3,7 +3,7 @@ img {
 }
 
 main {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .twin-title {
@@ -13,6 +13,7 @@ main {
 
 .navbar {
     background-color: #b8b8f4;
+
 }
 
 h1 {
@@ -103,4 +104,12 @@ svg {
 #subscrib {
     margin-top: 50px;
     background-color: #b8b8f4;
+}
+
+.top-header {
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 5px rgb(97, 83, 254);
+    margin-right: 150px;
+    text-align: center;
+
 }
