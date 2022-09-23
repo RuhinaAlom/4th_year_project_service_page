@@ -171,3 +171,33 @@ svg {
     margin-right: 700px;
 
 }
+
+.section {
+    padding: 2rem 9%;
+}
+
+.burger-img img {
+    width: 500px;
+    height: 400px;
+    padding: 1rem;
+    align-items: center;
+}
+
+.burger-img {
+
+    width: 500px;
+    margin-left: 100px;
+    animation: float 3s linear infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0rem);
+    }
+
+    50% {
+        transform: translateY(3rem);
+    }
+}
